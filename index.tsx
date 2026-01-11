@@ -122,7 +122,7 @@ ${pdfText}
     return (
         <>
             <header className="app-header">
-                ရန်ကုန်မြို့တော် စည်ပင်သာယာရေးကော်မတီ (YCDC) လက်ထောက်
+                သိလိုရာမေး
             </header>
             <div className="app-container">
                 <div ref={chatContainerRef} className="chat-container">
