@@ -159,7 +159,7 @@ ${pdfText}
                             </button>
                         </div>
                     )}
-                    {isProcessingPdf && <div className="loading-indicator">PDF ဖိုင်ကို စီစစ်နေပါသည်...</div>}
+                    {isProcessingPdf && <div className="loading-indicator">PDF ဖိုင်ကို စိစစ်နေပါသည်...</div>}
 
                     {pdfText && !isProcessingPdf && (
                         <form className="input-area" onSubmit={handleSendMessage}>
