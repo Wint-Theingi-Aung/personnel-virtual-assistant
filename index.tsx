@@ -76,7 +76,7 @@ const App = () => {
         setError('');
 
         try {
-            const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+            const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
             const systemInstruction = `Role: သင်သည် ရန်ကုန်မြို့တော် စည်ပင်သာယာရေးကော်မတီ (YCDC) ၏ Assistant Partner ဖြစ်သည်။ ဝန်ထမ်းများ၏ မေးခွန်းများကို ပေးထားသော PDF စာအုပ်ပါ အချက်အလက်များကိုသာ အခြေခံ၍ မြန်မာဘာသာ (Unicode) ဖြင့် ဖြေကြားပေးရန် ဖြစ်သည်။
 
 Strict Rules (တင်းကြပ်စွာ လိုက်နာရန်):
