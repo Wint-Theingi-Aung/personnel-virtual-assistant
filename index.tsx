@@ -93,7 +93,7 @@ ${pdfText}
 --- စာရွက်စာတမ်းများ အဆုံး ---`;
 
             const response = await ai.models.generateContent({
-                model: 'gemini-3-flash-preview',
+                model: 'gemini-1.5-flash',
                 contents: currentInput,
                 config: {
                     systemInstruction: systemInstruction,
